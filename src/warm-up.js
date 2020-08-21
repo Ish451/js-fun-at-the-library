@@ -46,7 +46,12 @@ var isFavorite = true
 // variable should be true, otherwise it should be false. You MUST use a
 // comparison operator.
 
-var isShortStory > pages
+var isShortStory = pages < 25
+
+
+
+
+
 
 
 
