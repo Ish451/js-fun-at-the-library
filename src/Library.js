@@ -5,12 +5,6 @@ function createLibrary(name, shelves) {
       fantasy:[],
       fiction:[],
       nonFiction:[]
-
-
-
-
-
-
     }
   };
 }
