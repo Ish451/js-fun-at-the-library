@@ -1,7 +1,6 @@
 function createTitle(title) {
   return `The ${title}`;
-
-};
+}
 
 function buildMainCharacter(name, age, pronouns) {
   return {
@@ -16,8 +15,6 @@ function saveReview(newReview, bookReviews) {
     return bookReviews;
   }
   return bookReviews.push(newReview);
-
-
 };
 
 function calculatePageCount(bookTitle){
@@ -31,21 +28,15 @@ function writeBook(bookTitle, mainCharacter, pageCount, genre){
     mainCharacter: mainCharacter,
     pageCount: calculatePageCount(bookTitle),
     genre:"fantasy"
-
-
   }
 }
-
-
-
-
 
 function editBook(ghoulBook){
   ghoulBook.pageCount = ghoulBook.pageCount * .75;
 }
 
 
- module.exports = {
+  module.exports = {
 
 
   createTitle: createTitle,

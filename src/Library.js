@@ -9,7 +9,6 @@ function createLibrary(name, shelves) {
   };
 }
 
-
   function addBook(name, book) {
     name.shelves[book.genre].push(book);
   }
